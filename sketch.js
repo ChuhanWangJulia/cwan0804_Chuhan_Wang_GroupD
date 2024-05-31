@@ -952,7 +952,8 @@ function drawTheseCircles() {
   }
 }
 //I added the dynamic effect of Perlin noise to the dots.
-function drawDotsPerlinNoise(x, y, diameter, dotCounts, radiusFactor, dotColors) {
+function drawDotsPerlinNoise(x, y, diameter, dotCounts, radiusFactor, dotColors) 
+{
   let numRings = dotCounts.length;
   for (let ring = 0; ring < numRings; ring++) {
     let radius = (diameter / 2) * radiusFactor[ring];
